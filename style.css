@@ -200,7 +200,17 @@
     
     transform: scale(1.1);
 }
-
+#see-more{
+    background-color: #10bf87;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    visibility: hidden;
+    font-size: 20px;
+}
 /* --------------footer----------------- */
 .main-footer{
     width: 100%;
@@ -384,8 +394,20 @@
     .blog img{
         width:100%;}
 
-        .all-blogs .live-heading h3{
-            font-size: 30px;}
+    .all-blogs .live-heading h3{
+        font-size: 30px;}
+
+    #see-more{
+        visibility: visible;
+    }
+
+    .box-2{
+        align-items: center;
+        width: 100%;
+        margin-left: 40%;
+        margin-bottom: 5%;
+
+    } 
 
 }
 
